@@ -1,0 +1,32 @@
+
+:root {
+  font-family: Inter, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body {
+  min-width: 320px;
+}
+
+::selection {
+  background: rgba(124, 92, 255, 0.4);
+  color: white;
+}
+
